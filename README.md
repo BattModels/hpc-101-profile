@@ -8,8 +8,8 @@ This repository contains practical examples and demonstrations for learning abou
 
 ## Repository Structure
 
-- **python-examples/**: Python profiling demonstrations
-- **JuliaExamples/**: Julia profiling demonstrations
+- **python-examples**: Python profiling demonstrations
+- **JuliaExamples**: Julia profiling demonstrations
 
 ## Topics Covered
 
