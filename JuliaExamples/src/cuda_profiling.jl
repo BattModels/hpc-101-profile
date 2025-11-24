@@ -58,8 +58,7 @@ function run_gpu_profiling(N=1_000_000_000)
     println("Median time: $(median(result.times) / 1e6) ms")
     println("Mean time: $(mean(result.times) / 1e6) ms")
     
-    # Calculate theoretical peak bandwidth
-    data_moved = 3 * N * sizeof(Float32) / 1e9  # GB (read a, read b, write c)
+    data_moved = 3 * N * sizeof(Float32) / 1e9  # GB
     achieved_bandwidth = data_moved / (minimum(result.times) / 1e9)
     println("Data moved: $(data_moved) GB")
     println("Achieved bandwidth: $(achieved_bandwidth) GB/s")

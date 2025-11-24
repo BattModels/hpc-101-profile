@@ -3,8 +3,8 @@
 function allocating_version(n)
     A = rand(n, n)
     B = rand(n, n)
-    C = A + B      # Allocates
-    D = C * 2      # Allocates again
+    C = A + B      
+    D = C * 2      
     return sum(D)
 end
 
@@ -12,8 +12,8 @@ function efficient_version(n)
     A = rand(n, n)
     B = rand(n, n)
     C = similar(A)
-    C .= A .+ B    # In-place with broadcasting
-    C .*= 2        # In-place
+    C .= A .+ B    
+    C .*= 2  
     return sum(C)
 end
 

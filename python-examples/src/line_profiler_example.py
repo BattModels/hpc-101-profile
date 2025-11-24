@@ -1,9 +1,12 @@
-# python -m kernprof -l -v -m src.line_profiler_example
+"""
+The line_profiler module for doing line-by-line profiling of functions.
+Execute this script with: python -m kernprof -l -v -m src.line_profiler_example
+"""
 
 import numpy as np
 from .matrix_multiply import matrix_multiply_naive
 
-@profile  # This uses kernprof's injected profiler
+@profile 
 def run_multiplication():
     """Wrapper function to profile the multiplication."""
     size = 200
