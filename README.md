@@ -1,10 +1,6 @@
 # HPC 101: Profiling
 
-Demo repository for an introduction to HPC lesson on profiling.
-
-## Overview
-
-This repository contains practical examples and demonstrations for learning about profiling techniques in high-performance computing (HPC) applications. The examples are designed to help you understand how to identify performance bottlenecks, analyze code efficiency, and optimize computational workloads.
+This repository contains simple examples and demonstrations for learning about profiling techniques in high-performance computing (HPC) applications. The examples are designed to help you understand how to identify performance bottlenecks and analyze code efficiency.
 
 ## Repository Structure
 
@@ -16,6 +12,7 @@ This repository contains practical examples and demonstrations for learning abou
 - CPU profiling and performance analysis
 - CUDA kernel time and memory profiling
 - Identifying computational bottlenecks
+- Visualizing and analyzing Flame Graphs.
 
 ## Getting Started
 
