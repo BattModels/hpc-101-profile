@@ -14,11 +14,25 @@ This repository contains practical examples and demonstrations for learning abou
 ## Topics Covered
 
 - CPU profiling and performance analysis
-- Memory profiling and optimization
+- CUDA kernel time and memory profiling
 - Identifying computational bottlenecks
-- Best practices for HPC code optimization
-- Hands-on profiling tool usage
 
 ## Getting Started
 
-Explore the language-specific directories to find examples and exercises for profiling in Python and Julia. Each directory contains its own README with more detailed instructions.
+1. Clone the repository
+2. For CUDA examples `module load cuda/12.8.1`
+   
+### Python
+
+3. Install [`uv`](https://docs.astral.sh/uv/getting-started/installation/)
+4. `cd python-examples`
+5. `uv sync`
+   
+
+### Julia
+
+6. Install or load Julia `module load julia`
+7. `cd JuliaExamples`
+8. `]` to go to `Pkg` mode
+9. `instantiate`
+
